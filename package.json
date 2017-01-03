@@ -1,0 +1,27 @@
+{
+  "name": "domain-api",
+  "version": "1.0.0",
+  "description": "domain wise serve your apis.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gokul-t/domain-api.git"
+  },
+  "keywords": [
+    "domain",
+    "api",
+    "serve"
+  ],
+  "author": "Gokul T <gokultmail@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gokul-t/domain-api/issues"
+  },
+  "homepage": "https://github.com/gokul-t/domain-api#readme",
+  "dependencies": {
+    "parse-domain": "^1.0.0"
+  }
+}
