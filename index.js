@@ -13,12 +13,10 @@
                 if (!(p && p.domain)) {
                     return next();
                 }
-                console.log("--------------------------: in exclude",p);
                 var a = p.domain + "." + (p.tld || "");
                 if (excludeDomain.indexOf(a) !== -1) {
                     return next();
                 }
-                console.log("--------------------------: out of exclude",p);
                 req.parseDomain = p;
 				url += a;
 				req.url = url + req.url;
