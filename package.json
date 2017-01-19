@@ -1,7 +1,7 @@
 {
   "name": "domain-api",
   "version": "1.0.1",
-  "description": "domain wise serve your apis.",
+  "description": "Handle dynamic domains in Express.js. Perfect for when you have customized domains for different users, and need to handle them within your Node app.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,8 @@
   "keywords": [
     "domain",
     "api",
-    "serve"
+    "serve",
+    "dynamic"
   ],
   "author": "Gokul T <gokultmail@gmail.com>",
   "license": "MIT",
