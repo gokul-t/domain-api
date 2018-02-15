@@ -33,6 +33,7 @@ app.use(domain(opts))
 Example options:
 
 ```
+var domain = require('domain-api');
 app.use(domain({
   namespace: 's',
   excludeDomain: 'mydomain.com',
